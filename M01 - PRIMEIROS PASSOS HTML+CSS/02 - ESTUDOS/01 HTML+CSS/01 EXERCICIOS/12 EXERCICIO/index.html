@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Vídeos com HTML</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmete</h1>
+    <P>Este vídeos está hospedado em meu prórpio servidor.</P>
+    <video src="midia/street.mp4" width="500" poster="imagens/S.png" controls loop></video>
+    <p>Como depende da compatibilidade de navegador devemos utilizar essa forma para inserir vídeos</p>
+    <video width="500" poster="imagens/S.png" controls loop>
+        <source src="midia/street.m4v" type="video/mp4">
+        <source src="midia/street.mp4" type="video/mp4">
+        <source src="midia/street.webm" type="video/webm">
+        <source src="midia/street.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos. <a href="midia/street.mp4">Clique para baixar o arquivo</a></p>
+    </video>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zrIfhUVB_3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo video do VIMEO</h1>
+    <iframe src="https://player.vimeo.com/video/356329790?h=08d5ee23d5" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

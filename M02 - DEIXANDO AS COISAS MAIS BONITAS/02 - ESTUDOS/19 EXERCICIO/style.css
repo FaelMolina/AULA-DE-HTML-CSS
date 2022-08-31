@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*
+Sempre que eu usar ID em HTML em CSS ele será representado por #
+Smpre que eu usar CLASS em HTML em CSS ele será representado por .
+*/
+
+body {
+    background-color: #A1FA93;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #25611C;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #43AD32;
+    color: white;
+}
+
+h2 {
+    color: #56E041;
+}
+
+.basico {
+    color: #56E041;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: #e0d541;
+}
+
+.avancado {
+    color: #e04141;
+}
+
+.destaque {
+    background-color: #e04141;
+}
